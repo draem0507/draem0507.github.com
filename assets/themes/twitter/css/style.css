@@ -22,6 +22,14 @@
 .post > .more {
   margin: 10px 0;
   text-align: left; }
+  /*first line Indentation 2 letter
+   * more reference https://github.com/zhuoqun/blog/blob/master/assets/themes/twitter/css/style.css
+  */
+ .post p, .about p {
+  text-indent: 2em;
+  font-size:14px;
+  line-height: 1.8;
+}
 
 /* post-full*/
 .post-full .date {
