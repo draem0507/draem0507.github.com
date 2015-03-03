@@ -11,6 +11,7 @@
 	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
+	
 </head>
 <body>
 
@@ -46,13 +47,15 @@
 				<div class="misc vcard">
 					<h4>about</h4>
 					<ul>
-						<li class="contact"><address><span class="author fn n">{{ site.author.name }}</span> - <span class="fn email">{{ site.author.email }}</span></address></li>
-						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-						<li class="twitter"><a href="http://twitter.com/{{ site.author.twitter }}/" rel="me">twitter.com/{{ site.author.twitter }}</a></li>
-						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">Subscribe to RSS Feed</a></li>
+						
+						<li class="github"><a href="http://github.com/{{ site.author.github }}/" rel="me">我的github</a></li>
+						<li class="blog" ><a href="http://draem0507.cnblogs.com" rel="me">我的博客园</a></li>
+						<li class="blog" ><a href="http://weibo.com/draem0507" rel="me">我的微薄</a></li>
+						<li class="contact"><a href="mailto:{{ site.author.email }}"><span class="fn email">联系我</span></a></li>
+						<li class="rss"><a href="http://feeds.feedburner.com/{{ site.author.feedname }}">我的Feed</a></li>
 					</ul>
 				</div><!-- misc -->
-				<p class="licence">
+				<p class="licence" style="display:none;">
 					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
 					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
 				</p>
@@ -79,4 +82,15 @@
   
   {% include JB/analytics %}
 </body>
+
+
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript">
+var jiathis_config = {data_track_clickback:'true'};
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;uid=1541460" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+
+
 </html>

@@ -2,6 +2,7 @@
 layout: page
 title: Hello World!
 tagline: Supporting tagline
+category: Life
 tags: [aa,bb]
 ---
 {% include JB/setup %}
