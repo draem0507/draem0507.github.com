@@ -11,13 +11,13 @@ highlighter: pygments
 #
 title : liuwx's blog
 tagline: 为了颖,鑫一直在努力!
-aubout: 关于作者
 author :
   name : liuwx
   email : draem0507@gmail.com
   github : draem0507
   twitter : draem0507
   feedburner : draem0507
+  feedname : draem0507
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
